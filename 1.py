@@ -9,13 +9,10 @@ webcam = cv2.VideoCapture(1)
 webcam.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
 webcam.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 
+
 # arduino connection
-#arduino = serial.Serial(port='COM4', baudrate=115200, timeout=.1) # CHECK COM PORT!!!!!!!
-#def write_read(x): 
-#    arduino.write(bytes(x, 'utf-8')) 
-#    time.sleep(0.05) 
-#    data = arduino.readline() 
-#    return data 
+arduino = serial.Serial(port='COM8', baudrate=115200, timeout=.1) # CHECK COM PORT!!!!!!!
+
 
 
 
@@ -89,7 +86,7 @@ while (1):
                 center_x = x + w // 2
                 objects.append(("GREEN", distance_cm/10, center_x))
 
-    # Print nearest object's angle from center (degrees), with 10 degree deadzone
+    # Print and send nearest object's color and angle to Arduino
     if objects:
         nearest = min(objects, key=lambda x: x[1])
         center_x = nearest[2]
@@ -100,12 +97,13 @@ while (1):
         angle = ((center_x - frame_center_x) / (frame_width / 2)) * (H_FOV / 2)
         # Deadzone logic
         if abs(angle) <= 10:
-            pos = "CENTER"
-        elif angle < -10:
-            pos = f"{angle:.1f}°"
+            angle_to_send = 0
         else:
-            pos = f"{angle:.1f}°"
-        print(f"{nearest[0]}, {nearest[1]:.1f} cm, {pos}")
+            angle_to_send = round(angle, 1)
+        print(f"{nearest[0]}, {nearest[1]:.1f} cm, {angle_to_send}")
+    # Send to Arduino: "COLOR,angle" (non-blocking)
+    arduino_message = f"{nearest[0]},{angle_to_send}\n"
+    arduino.write(bytes(arduino_message, 'utf-8'))
 
 
     # final run
