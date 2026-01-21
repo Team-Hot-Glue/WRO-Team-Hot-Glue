@@ -11,7 +11,7 @@ webcam.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 
 
 # arduino connection
-arduino = serial.Serial(port='COM8', baudrate=115200, timeout=.1) # CHECK COM PORT!!!!!!!
+arduino = serial.Serial(port='COM3', baudrate=115200, timeout=.1) # CHECK COM PORT!!!!!!!
 
 
 
@@ -101,9 +101,9 @@ while (1):
         else:
             angle_to_send = round(angle, 1)
         print(f"{nearest[0]}, {nearest[1]:.1f} cm, {angle_to_send}")
-    # Send to Arduino: "COLOR,angle" (non-blocking)
-    arduino_message = f"{nearest[0]},{angle_to_send}\n"
-    arduino.write(bytes(arduino_message, 'utf-8'))
+        # Send to Arduino: "COLOR,angle" (non-blocking)
+        arduino_message = f"{nearest[0]},{angle_to_send}\n"
+        arduino.write(bytes(arduino_message, 'utf-8'))
 
 
     # final run
