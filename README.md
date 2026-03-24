@@ -1,9 +1,5 @@
-# WRO-Team-Hot-Glue
+# WRO-KU-STEAM-Hot-Glue
 
-Hi, we love sniffing glue.
+Hello and welcome to our repository :D
 
-I eat hot glu
-
-Glu very nice 
-Gleu very good
-
+Here you will find all the code and CAD files for our robot, as well as the engineering journal that dive into how we made it.
