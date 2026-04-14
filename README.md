@@ -8,6 +8,7 @@ Here you will find all the code and CAD files for our robot, as well as the engi
 
 
 **1)** In **CAD files -> Current_build** there is a .step file of the full robot assembly. It contains all the custom-made parts of the chassis. You can import it into CAD software of your choice and view how the robot's fully assembled chassis must look like. We recommend using it as a reference during assembly.  
+
 **2)** 3D Print the provided .stl files using PLA or PETG. *Note*: we also provide a .stl file of the metal mBot2 chassis. This can be printed as well instead of ordering a metal part. *The plastic version will be weaker and perform worse*, but we tested it in action and when printed with PLA it is strong enough for the task at hand.
 
 
