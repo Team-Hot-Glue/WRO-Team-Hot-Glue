@@ -16,4 +16,15 @@ Here you will find all the code and CAD files for our robot, as well as the engi
   
 **4)** Order the necessary electronic components from your local electronics components shop or an online retailer. The full list and rellevant links can be found **IN THE ENGINEERING JOURNAL**
 
-**5)** Coming soon...
+**5)** Screw in the 3D printed parts to the chassis. Most of the screws used are M4 size (later the exact sizes and amounts of each size screws will be confirmed)
+
+**6)** Mount the electronic components to the chassis. TOF sensors will need to be screwed in, motor board doesnt need screws, it is beeing held in place by tpu stoppers (you have to 3D print them, the file is provided)
+
+**7)** Connect all the cables according to the wiring diagram: 
+
+**8)** Cable manage everything. We used zipties and hotglue for that.
+
+**9)** Enjoy your new robot, make it pretty by adding cat stickers to it (optional, but highly recommended) 
+<img width="1069" height="1276" alt="wro cat2" src="https://github.com/user-attachments/assets/437537c3-81c2-47b9-b029-5299b8ae2b41" />
+<img width="1152" height="2048" alt="wro cat" src="https://github.com/user-attachments/assets/a0cbb9eb-239f-4fec-99c7-fc0c965093c4" />
+<img width="1152" height="1162" alt="wro cat1" src="https://github.com/user-attachments/assets/95005812-cc60-4e9d-bbcd-260fc852d8a3" />
