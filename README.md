@@ -22,7 +22,7 @@ Here you will find all the code and CAD files for our robot, as well as the engi
 
 **7)** Connect all the cables according to the wiring diagram: **Wiring.pdf**
 
-**8)** Cable manage everything. We used zipties and hotglue for that.
+**8)** Cable manage everything. We used zipties and hotglue for that, to stop the header connectors and jumpers from disconecting CA glue was used.
 
 **9)** Enjoy your new robot, make it pretty by adding cat stickers to it (optional, but highly recommended) 
 
