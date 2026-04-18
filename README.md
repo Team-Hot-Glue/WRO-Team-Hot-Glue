@@ -18,7 +18,7 @@ Here you will find all the code and CAD files for our robot, as well as the engi
 
 **5)** Screw in the 3D printed parts to the chassis. Most of the screws used are M4 size (later the exact sizes and amounts of each size screws will be confirmed)
 
-**6)** Mount the electronic components to the chassis. TOF sensors will need to be screwed in, motor board doesnt need screws, it is beeing held in place by tpu stoppers (you have to 3D print them, the file is provided)
+**6)** Mount the electronic components to the chassis. TOF sensors will need to be screwed in, motor board doesnt need screws, it is beeing held in place by tpu stoppers (you have to 3D print them, the file is provided). Raspberry pi is beeing held to the chassis by velcro tape (similar to this, but different manufacturer: https://www.amazon.com/Adhesion-Adhesive-Interlocking-Mounting-Reclosable/dp/B0F8QH6T7F?dib=eyJ2IjoiMSJ9.sWOzfDUK5y1aDXqjwkxAzRo3fOkcSBAPlxeON7OtolDZ_HzZKKvONK2Kl6hXdAiBxgB1h8kBcjORK_rxzKgocvBZVVwSY5f1SGlkJXk1yXgahTyaK8nmcbOM-T1njYOpqbj-2JITPqoPgpm_fb56DVVqnFqUBwgfux2RrOPpvfZ8_8MypUKSdyLFLj-mA6iZ-kPy0YYVQH_uENcu6pGvFZXmeXMbHXBT7sAZrBpcjw8.5EvI91duhRFJlraMxp4nweJiO0lCkEv_J-mC3xSJOKQ&dib_tag=se&keywords=Adhesive%2BVelcro%2BTape&qid=1776546178&sr=8-8&th=1)
 
 **7)** Connect all the cables according to the wiring diagram: **Wiring.pdf**
 
