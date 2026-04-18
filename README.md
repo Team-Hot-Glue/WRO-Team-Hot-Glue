@@ -20,7 +20,7 @@ Here you will find all the code and CAD files for our robot, as well as the engi
 
 **6)** Mount the electronic components to the chassis. TOF sensors will need to be screwed in, motor board doesnt need screws, it is beeing held in place by tpu stoppers (you have to 3D print them, the file is provided)
 
-**7)** Connect all the cables according to the wiring diagram: 
+**7)** Connect all the cables according to the wiring diagram: Wiring.pdf
 
 **8)** Cable manage everything. We used zipties and hotglue for that.
 
