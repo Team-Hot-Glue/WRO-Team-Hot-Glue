@@ -26,6 +26,5 @@ Here you will find all the code and CAD files for our robot, as well as the engi
 
 **9)** Enjoy your new robot, make it pretty by adding cat stickers to it (optional, but highly recommended) 
 
-<img width="1069" height="1276" alt="wro cat2" src="https://github.com/user-attachments/assets/437537c3-81c2-47b9-b029-5299b8ae2b41" />
 <img width="1152" height="2048" alt="wro cat" src="https://github.com/user-attachments/assets/a0cbb9eb-239f-4fec-99c7-fc0c965093c4" />
 
